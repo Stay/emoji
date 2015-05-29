@@ -1,2 +1,2 @@
 # emoji
-A library to show emoji in TextView, EditText (like WhatsApp) for Android, simple to integrate and upgrade
+A library to show unified emoji in TextView, EditText on Android, it's simple to integrate and upgrade.
