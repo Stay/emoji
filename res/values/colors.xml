@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#ff454545</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="tabview_text_h">#cb7081</color>
+    <color name="tabview_text_n">#666666</color>
+    <color name="tab_indicator_gray">#fffcfcfc</color>
+    <color name="tab_gray">#ff999999</color>
+    <color name="tab_green">#ff45c01a</color>
+    <color name="widgets_general_row_pressed">#d9d9d9</color>
+    <color name="widgets_general_row_normal">#ffffff</color>
+    <color name="widgets_general_row_line">#e5e5e5</color>
+    <color name="widgets_dot_pressed">#8c8c8c</color>
+    <color name="widgets_dot_normal">#bcbcbc</color>
+    <color name="widgets_emo_pannel_bg">#ffffff</color>
+    <color name="widgets_emo_tab_pressed">#c8c8c8</color>
+    <color name="widgets_emo_tab_normal">#ffffff</color>
+    <color name="widgets_emo_tab_label">#878787</color>
+     <color name="general_background">#efeff4</color>
+
+</resources>

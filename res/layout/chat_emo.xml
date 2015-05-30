@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/widgets_emo_pannel_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/message_layout_container_emotes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip" >
+
+            <GridView
+                android:id="@+id/message_facebar_gv_emotes"
+                style="@style/Style_Scrollable"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@null"
+                android:numColumns="7" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/message_facebar_radiobutton_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/selector_emo_group"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/emote_radio_1"
+                style="@style/Emote_RadioB_style.Text"
+                android:text="@string/emote_type_1" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="@color/widgets_general_row_line"
+                android:focusable="false" />
+
+            <RadioButton
+                android:id="@+id/emote_radio_2"
+                style="@style/Emote_RadioB_style.Text"
+                android:text="@string/emote_type_2" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="@color/widgets_general_row_line"
+                android:focusable="false" />
+
+            <RadioButton
+                android:id="@+id/emote_radio_3"
+                style="@style/Emote_RadioB_style.Text"
+                android:text="@string/emote_type_3" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="@color/widgets_general_row_line"
+                android:focusable="false" />
+
+            <RadioButton
+                android:id="@+id/emote_radio_4"
+                style="@style/Emote_RadioB_style.Text"
+                android:text="@string/emote_type_4" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="@color/widgets_general_row_line"
+                android:focusable="false" />
+
+            <RadioButton
+                android:id="@+id/emote_radio_5"
+                style="@style/Emote_RadioB_style.Text"
+                android:text="@string/emote_type_5" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:background="@color/widgets_general_row_line"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/emote_radio_delete"
+                style="@style/Emote_RadioB_style"
+                android:clickable="true"
+                android:src="@drawable/ic_topbar_back_normal" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

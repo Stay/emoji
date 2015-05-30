@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mRootLinLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mChatEditorLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/mChatMsgEditorLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" >
+
+            <EditText
+                android:id="@+id/mChatEditorTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:imeOptions="actionSend|flagNoEnterAction"
+                android:maxLines="3"
+                android:minHeight="28dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/mChatSendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="5dp"
+                android:text="Send" />
+        </LinearLayout>
+
+        <com.stay4it.emoji.EmoticonView
+            android:id="@+id/message_layout_emotes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mChatMsgEditorLayout" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mChatLsv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/mChatEditorLayout" />
+
+</RelativeLayout>

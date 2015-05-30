@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">stay4it_emoji</string>
+    <string name="emote_type_1">表情</string>
+    <string name="emote_type_2">自然</string>
+    <string name="emote_type_3">物品</string>
+    <string name="emote_type_4">城市</string>
+    <string name="emote_type_5">标记</string>
+
+</resources>
